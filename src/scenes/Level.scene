@@ -30,7 +30,9 @@
             "components": [],
             "x": 400,
             "y": 436,
-            "text": "Phaser 3 + Phaser Editor 2D\nWebpack + TypeScript",
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Phaser 3 + Phaser Editor 2D\nWebpack + TypeScript + CapacitorJS",
             "align": "center",
             "fontFamily": "Arial",
             "fontSize": "3em"
@@ -40,6 +42,7 @@
     "meta": {
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
-        "contentType": "phasereditor2d.core.scene.SceneContentType"
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
     }
 }
