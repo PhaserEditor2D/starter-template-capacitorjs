@@ -1,8 +1,16 @@
-# Webpack + TypeScript project template for Phaser Editor 2D
+# CapacitorJS project template for Phaser Editor 2D
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/PhaserEditor2D/starter-template-webpack)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/PhaserEditor2D/starter-template-capacitorjs)
 
-A project template for Phaser 3, Webpack 5, TypeScript, and Phaser Editor 2D v3.
+This a project template for building your Phaser 3 game into a native wrapper for different platforms.
+
+It uses the following tools:
+
+* Phaser 3 as game framework.
+* Phaser Editor 2D as visual editor for scenes.
+* TypeScript for coding.
+* Webpack for bundling the assets.
+* [CapacitorJS](https://capacitorjs.com) for building a game native wrapper. It targets Android by default.
 
 ## First steps
 
@@ -22,13 +30,23 @@ This project requires [Node.js](https://nodejs.org) and [NPM.js](https://www.npm
 
     Open the browser at `http://127.0.0.1:8080`.
 
-* Make a production build:
+* Make an HTML5 production build:
 
     ```
     npm run build
     ```
 
     It is generated in the `/dist` folder.
+
+* Make an Android APK build:
+
+    ```
+    npm run build-android
+    ```
+
+    The APK files are generated into the `android/app/build/outputs/apk/debug` folder.
+
+    You should follow the steps in the [CapacitorJS documentation](https://capacitorjs.com/docs/android) for setting up the Android development environment.
 
 ## Run the editor
 
@@ -63,7 +81,7 @@ This project requires [Node.js](https://nodejs.org) and [NPM.js](https://www.npm
 
 There are a lot of files present in the project that are not relevant to Phaser Editor 2D. For example, the whole `node_modules` folder should be excluded from the editor's project.
 
-The `/.skip` file lists the folders and files to exclude from the editor's project. 
+The `skip` parameter of the `phasereditor2d.config.json` file lists the folders and files to exclude from the editor's project. 
 
 [Learn more about resource filtering in Phaser Editor 2D](https://help.phasereditor2d.com/v3/misc/resources-filtering.html)
 
