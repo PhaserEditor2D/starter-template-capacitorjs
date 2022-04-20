@@ -1,0 +1,6 @@
+{
+	"appId": "com.phasereditor2d.marketplace.template",
+	"appName": "phasereditor2d-capacitorjs-template",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
