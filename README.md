@@ -48,6 +48,12 @@ This project requires [Node.js](https://nodejs.org) and [NPM.js](https://www.npm
 
     You should follow the steps in the [CapacitorJS documentation](https://capacitorjs.com/docs/android) for setting up the Android development environment.
 
+    It is possible that you should set the `ANDROID_SDK_ROOT` environment variable. We recommend first time to opening the project in Android Studio and build it. Android Studio peforms some checks, updates, and set the right values into the `local.properties` file.
+
+    ```
+    npx cap open android
+    ```
+
 ## Run the editor
 
 * You can run the editor using the `editor` NPM script, defined in the `package.json` file:
