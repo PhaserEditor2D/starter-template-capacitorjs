@@ -16,6 +16,7 @@
   "dependencies": {
     "@capacitor/android": "^4.0.0",
     "@capacitor/core": "^4.0.0",
+    "@capacitor/ios": "^4.7.1",
     "phaser": "^3.55.0"
   },
   "devDependencies": {
