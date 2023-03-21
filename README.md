@@ -54,6 +54,24 @@ This project requires [Node.js](https://nodejs.org) and [NPM.js](https://www.npm
     npx cap open android
     ```
 
+* Make an iOS app:
+
+    First, you should [install depedencies](https://capacitorjs.com/docs/ios).
+
+    Then, for running your iOS app:
+
+    ```
+    npm run run-ios
+    ```
+
+    For building the iOS app, you need to open Xcode:
+
+    ```
+    npx cap open ios
+    ```
+
+    Then you build the app with Xcode.
+
 ## Run the editor
 
 * You can run the editor using the `editor` NPM script, defined in the `package.json` file:

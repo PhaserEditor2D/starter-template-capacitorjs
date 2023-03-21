@@ -9,6 +9,7 @@
     "editor": "phasereditor2d-launcher -project . -port 1959",
     "editor-remote": "phasereditor2d-launcher -project . -disable-open-browser -public -port 1959",
     "build-android": "npm run build && cap sync && cd android && ./gradlew clean && ./gradlew assemble",
+    "run-ios": "npm run build && cap sync && cap run ios",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Phaser Editor 2D <developers@phasereditor2d.com> (https://phasereditor2d.com/)",
