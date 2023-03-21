@@ -1,4 +1,4 @@
-## v1.0.2 - Mar 21, 2022
+## v1.1.0 - Mar 21, 2022
 
 * Update to Capacitor 4.
 * Adds iOS support.
