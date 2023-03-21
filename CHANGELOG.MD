@@ -1,3 +1,7 @@
+## v1.0.2 - Mar 21, 2022
+
+* Update to Capacitor 4.
+
 ## v1.0.1 - Apr 20, 2022
 
 * Updates readme file with new instructions for building the Android app.
