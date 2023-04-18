@@ -2,7 +2,8 @@
     "plugins": [],
     "skip": [
         "dist",
-        "android"
+        "android",
+        "ios"
     ],
     "playUrl": "http://localhost:8080"
 }
