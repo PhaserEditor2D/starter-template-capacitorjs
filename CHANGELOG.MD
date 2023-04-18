@@ -1,3 +1,9 @@
+## v1.2.0 - Apr 18, 2023
+
+* Migrates to Phaser 3.60.
+* Migrates to Phaser Editor 2D v3.60.
+* Adds Script Nodes.
+
 ## v1.1.0 - Mar 21, 2022
 
 * Update to Capacitor 4.
