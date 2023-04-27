@@ -1,6 +1,7 @@
 ## v1.2.2 - Apr 26, 2023
 
 * Adds support to the `start=<scene>` URL parameter.
+* Gets the latest script nodes.
 
 ## v1.2.1 - Apr 24, 2023
 
