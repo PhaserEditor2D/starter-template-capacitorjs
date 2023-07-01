@@ -1,3 +1,7 @@
+## v1.2.4 - Jun 30, 2023
+
+* Updates typescript.
+
 ## v1.2.3 - Jun 29, 2023
 
 * Gets latest script nodes.
