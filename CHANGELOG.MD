@@ -1,3 +1,7 @@
+## v1.2.5 - Sep 30, 2023
+
+* Improves Gitpod configuration.
+
 ## v1.2.4 - Jun 30, 2023
 
 * Updates typescript.
