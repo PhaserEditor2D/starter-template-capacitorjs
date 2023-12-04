@@ -74,7 +74,7 @@ export default class Preload extends Phaser.Scene {
 				return;
 			}
 		}
-		
+
 		this.scene.start("Level");
 	}
 

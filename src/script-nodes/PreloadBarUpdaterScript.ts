@@ -3,7 +3,7 @@
 
 /* START OF COMPILED CODE */
 
-import ScriptNode from "../script-nodes-basic/ScriptNode";
+import { ScriptNode } from "@phasereditor2d/scripts-core";
 import Phaser from "phaser";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */

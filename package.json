@@ -18,6 +18,8 @@
     "@capacitor/android": "^4.0.0",
     "@capacitor/core": "^4.0.0",
     "@capacitor/ios": "^4.7.1",
+    "@phasereditor2d/scripts-core": "^1.0.7",
+    "@phasereditor2d/scripts-simple-animations": "^1.0.6",
     "phaser": "^3.60.0"
   },
   "devDependencies": {
