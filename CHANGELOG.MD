@@ -1,3 +1,8 @@
+## v1.3.5 - Dec 10, 2023
+
+* Migrates to the new script node libraries.
+* Don't include `package-lock.json` file.
+
 ## v1.2.5 - Sep 30, 2023
 
 * Improves Gitpod configuration.
